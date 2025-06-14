@@ -6,7 +6,7 @@ example_str = input('Введіть строку:')
 unique_elements = set(example_str)
 
 if len(unique_elements) > 10:
-	print('true')
+	print(True)
 else:
-	print('false')
+	print(False)
 
