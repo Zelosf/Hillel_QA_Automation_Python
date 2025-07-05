@@ -29,7 +29,7 @@ def all_sum_numbers_v2 (example):
 		return "Не можу це зробити"
 
 
-a = ["1,2,3,4", "1,2,3,4,50", "qwerty1,2,3"]
+a = ["1,-2,3,4", "1,2,3,4,50", "qwerty1,2,3"]
 
 all_sum_numbers_v1(a)
 
