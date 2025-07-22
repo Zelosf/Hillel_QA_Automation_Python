@@ -6,3 +6,15 @@
 2025-07-11 22:33:20,765 - Login event - Username: admin, Status: expired
 2025-07-11 22:33:20,766 - Login event - Username: admin, Status: failed
 2025-07-11 22:33:20,766 - Login event - Username: admin, Status: unknown
+2025-07-22 21:38:13,270 - Login event - Username: admin, Status: success
+2025-07-22 21:38:13,271 - Login event - Username: admin, Status: expired
+2025-07-22 21:38:13,271 - Login event - Username: admin, Status: failed
+2025-07-22 21:38:13,271 - Login event - Username: admin, Status: unknown
+2025-07-22 21:38:34,095 - Login event - Username: admin, Status: success
+2025-07-22 21:38:34,095 - Login event - Username: admin, Status: expired
+2025-07-22 21:38:34,095 - Login event - Username: admin, Status: failed
+2025-07-22 21:38:34,096 - Login event - Username: admin, Status: unknown
+2025-07-22 21:38:52,956 - Login event - Username: admin, Status: success
+2025-07-22 21:38:52,957 - Login event - Username: admin, Status: expired
+2025-07-22 21:38:52,957 - Login event - Username: admin, Status: failed
+2025-07-22 21:38:52,957 - Login event - Username: admin, Status: unknown
