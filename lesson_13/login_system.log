@@ -18,3 +18,7 @@
 2025-07-22 21:38:52,957 - Login event - Username: admin, Status: expired
 2025-07-22 21:38:52,957 - Login event - Username: admin, Status: failed
 2025-07-22 21:38:52,957 - Login event - Username: admin, Status: unknown
+2025-08-17 21:13:09,105 - Login event - Username: admin, Status: success
+2025-08-17 21:13:09,106 - Login event - Username: admin, Status: expired
+2025-08-17 21:13:09,106 - Login event - Username: admin, Status: failed
+2025-08-17 21:13:09,106 - Login event - Username: admin, Status: unknown
