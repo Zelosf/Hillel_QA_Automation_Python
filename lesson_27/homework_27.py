@@ -1,8 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 
-driver = webdriver.Chrome()
+options = Options()
+options.add_argument("--headless")  # щоб працювало без графічного інтерфейсу
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
+
+driver = webdriver.Chrome(service=Service("/usr/local/bin/chromedriver"), options=options)
 
 data = [
 	("20400465481215", "Посилка отримана"),
