@@ -1,10 +1,12 @@
 import pytest
 from selenium import webdriver
-from lesson_28.pages.main_page import MainPage
+
 from lesson_28.pages.log_in_modal_pop_up import LoginModalPopUp
+from lesson_28.pages.main_page import MainPage
 from lesson_28.pages.registration_modal_pop_up import RegistrationModalPopUp
 from lesson_28.pages.garage_page import GaragePage
 import time
+import allure
 
 
 @pytest.fixture
@@ -15,6 +17,7 @@ def driver():
 
 
 @pytest.fixture
+@allure.step("Відкриття основної сторінки")
 def open_start_page(driver):
 	def _open_start_page():
 		driver.get("https://guest:welcome2qauto@qauto2.forstudy.space")
@@ -23,6 +26,7 @@ def open_start_page(driver):
 
 
 @pytest.fixture
+@allure.step("Вхід у систему")
 def sign_in(driver):
 	def _sign_in():
 		main_page = MainPage(driver)
@@ -41,6 +45,7 @@ def registration_in_log_in(driver):
 
 
 @pytest.fixture
+@allure.step("Створення нового користува")
 def registration(driver):
 	def _registration(name, last_name, email, password, re_password):
 		registration_modal_pop_up = RegistrationModalPopUp(driver)
